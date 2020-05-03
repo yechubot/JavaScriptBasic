@@ -7,7 +7,7 @@ drive: function(speed,time) {
 console.log(speed*time);
 },
 logDriver : function() {
-console("driver name is " + this.driver)
+console.log ("driver name is " + this.driver)
 }
 
 };
