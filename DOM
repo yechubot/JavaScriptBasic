@@ -1,0 +1,33 @@
+/*
+nodes : elements, text within elements, html attributes..
+
+"DOM" = Document Object Model
+- can reach in at any node, 
+- once we have that node, we can traverse the DOM to acces othe nodes.
+
+examples below...
+
+document.getElementsByClassName("content");
+var myContentDivs = document.getElementsByClassName("content");
+- > 그럼 앞으로 myContentDvis를 사용해서 원하는 거 가리킬 수 있음.
+
+document.getElementsByTagName("h2");
+var myH2 = myContentDiv[1].getElementsByTagName("h2");
+-> H2 호출하면, "content" class 중에 있는 두번째 div의 h2가 있느 태그를 가리킴 
+
+document.getElementById(""); - elementS!!!가 아님 id는 고유하니깐.. 
+
+myH2.innerHTHML = ""; 바꿀 수 있음
+
+var myTitle = document.getElementbyId("page title");
+myTitle; -> 한개 나옴 아이디는 하나니까. 
+1.grab the element you want.
+2.use method to change elements and so on...
+
+.getAttribute(); - > method
+.setAttribute(); - > method
+.className;  - > property 
+.className = " " ;
+.
+
+*/
