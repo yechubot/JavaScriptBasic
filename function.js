@@ -44,7 +44,7 @@ i ++;
 numbering();
 
 
-numbering = function() {
+var numbering = function() {
 i = 0; 
 while(i < 10) {
 document.write(i);
