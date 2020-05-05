@@ -1,0 +1,11 @@
+body {
+    background-color: gainsboro;
+}
+#content {
+    text-align: center;
+    margin: 8rem;
+    border: 4px solid whitesmoke;
+    padding: 2rem;
+    max-height: 270px;
+    overflow:hidden;
+}

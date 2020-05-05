@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<style> 
+body {
+background: #eee;
+}
+
+#content {
+ width: 400px;
+ background: #fff;
+ padding: 20px;
+ padding-top: 0;
+ font-family: calibri;
+ font-size: 18px;
+ color: #444;
+ margin: 0 auto;
+ max-height: 270px;
+ overflow: hidden;
+}
+
+#content.open{
+ max-height: 1000px;
+ -webkit-transition: max-height 0.7s;
+ -moz-transition: max-height 0.7s;
+ transition: max-height 0.7s;
+
+}
+
+#show-more {
+ background: #1594e5;
+ color: #fff;
+ font-family: calibri;
+ display: block;
+ width: 140px;
+ font-size: 24px;
+ text-transform: uppercase;
+ padding: 10px;
+ text-align: center;
+ margin: 20px auto;
+ cursor: pointer;
+
+
+}
+</style>
+</head>
+
+<body>
+  <div id="content">  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eligendi, aspernatur numquam laudantium a voluptatem debitis ad, molestias omnis, esse atque voluptas voluptate nam aliquid quis eveniet mollitia, deserunt recusandae?  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quidem nobis ratione, optio expedita molestiae veniam, ab dolorem ipsum, obcaecati cumque! Natus labore iste cumque dolorem deserunt magnam alias assumenda!  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore suscipit harum sed sint, blanditiis aspernatur iusto odio vitae nostrum ex animi perspiciatis cum neque, commodi sequi dolorum quasi eaque fugiat!   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus animi et laborum delectus laudantium expedita velit pariatur, cum deserunt error magnam nostrum repellat doloribus non quisquam dicta sed, eligendi debitis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, itaque cupiditate autem cumque, consequatur nesciunt iusto tenetur nihil, beatae atque nemo perferendis. Nesciunt fugiat, distinctio dolor nostrum explicabo amet vero.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla nemo debitis labore dolore nesciunt ullam accusamus veniam quos numquam, ratione, maxime, recusandae aliquid. Est minus vel illum reprehenderit adipisci perspiciatis.</div>
+  <a id="show-more">Show more</a>
+<script src ="event_show.js"></script>
+</body>
+
+</html>
