@@ -1,4 +1,4 @@
-// 변수 대문잘 시작해서 만듦 - > Consturctor
+// 변수 대문자로 시작해서 만듦 - > Consturctor
 var Car = function(maxSpeed, driver) {
   
   this.maxSpeed = maxSpeed;
